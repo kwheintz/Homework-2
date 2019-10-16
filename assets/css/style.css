@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding: 0px;
+    border: 0px;    
+    width: 100%;
+    height: 600px;
+    background: #777777;
+    color: #777;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: -25px;
+}
+
+header {
+    background: navy;
+    height: 65px;
+    width: 180px;
+    padding-top: 14px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+article {
+    background: white;
+    width: 600px;
+    height: 350px;
+    margin: 35px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 20px;
+    border: 0px;
+    border-left: 15px;
+    border-color: #777;
+}
+
+aside {
+    background: white;
+    width: 600px;
+    height: 525px;
+    margin: 35px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 20px;
+    border: 0px;
+    border-left: 15px;
+    border-color: #777;
+}
+
+.portfoliobox {
+    background: white;
+    width: 460px;
+    height: 525px;
+    margin: 35px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 20px;
+    border: 0px;
+    border-left: 15px;
+    border-color: #777;
+}
+
+h1 {
+    background: white;
+    height: 50px;
+    width: 150px;
+    padding-top: 25px;
+    align-content: left;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: navy;
+}
+
+footer {
+    background: navy;
+    height: 65px;
+    width: 100%;
+    padding-top: 20px;
+    align-content: left;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    article {
+        background: white;
+        width: 600px;
+        height: 450px;
+        margin: 35px;
+        padding-left: 20px;
+        padding-right:20px;
+        padding-bottom: 20px;
+        border: 0px;
+        border-left: 15px;
+        border-color: #777;
+    }
+
+}
+
+@media (max-width: 576px) {
+    article {
+        background: white;
+        width: 600px;
+        height: 475px;
+        margin: 35px;
+        padding-left: 20px;
+        padding-right:20px;
+        padding-bottom: 20px;
+        border: 0px;
+        border-left: 15px;
+        border-color: #777;
+    }
+}
